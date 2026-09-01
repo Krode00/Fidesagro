@@ -352,7 +352,7 @@ CREATE TABLE IF NOT EXISTS `core`.`core.cooperatives` (
   `cooperative_id` INT NOT NULL,
   `cooperative_code` TEXT NOT NULL,
   `name` TEXT NOT NULL,
-  `registration_no` TEXT NULL,
+  `registration_no` TEXT NULL,  
   `onboarding_champion_id` INT NOT NULL,
   `lga_id` INT NOT NULL,
   `ward_id` INT NULL,
@@ -1626,3 +1626,8 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+
+
+rigg\
